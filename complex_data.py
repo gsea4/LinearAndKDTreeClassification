@@ -194,7 +194,7 @@ x_incorrect_0, y_incorrect_0 = pred_incorrect_0.T
 x_incorrect_1, y_incorrect_1 = pred_incorrect_1.T
 
 plt.subplot(2, 1, 2)
-plt.title('Nearest Neighbor Classification | Accuracy: ' + str(accuracy))
+plt.title('KDTree NN Classification | Accuracy: ' + str(accuracy))
 plt.scatter(x_training_class_0, y_training_class_0, color = 'purple', label='Training class 0')
 plt.scatter(x_training_class_1, y_training_class_1, color = 'yellow', label='Training class 1')
 

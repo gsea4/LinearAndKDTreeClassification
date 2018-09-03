@@ -92,6 +92,6 @@ plt.scatter(x_correct_1, y_correct_1, color = 'blue', label='Correct class 1')
 plt.scatter(x_incorrect_0, y_incorrect_0, color = 'black', label='Incorrect class 0')
 plt.scatter(x_incorrect_1, y_incorrect_1, color = 'red', label='Incorrect class 1')
 
-plt.title('Linear Classification | Accuracy: ' + str(accuracy))
+plt.title('KDTree NN Classification | Accuracy: ' + str(accuracy))
 plt.legend()
 plt.show()
